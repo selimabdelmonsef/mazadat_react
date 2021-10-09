@@ -1,15 +1,16 @@
 import './App.css';
 import 'rsuite/dist/rsuite.min.css';
-import Banner from './components/banner/banner.js'
-import SearchResult from './components/searchResult/searchResult';
-import { MyAccesories } from './accesories/accesories';
+import BannerComponent from './components/banner/banner.js'
+import SearchResultComponent from './components/searchResult/searchResult';
+import AccesoriesComponent from './components/accesoriesComponent/accesoriesComponent';
 
 function App() {
+
   return (
     <div className="App">
-      <Banner />
-      <SearchResult/>
-      <MyAccesories/>
+      <BannerComponent />
+      <SearchResultComponent/>
+      <AccesoriesComponent/>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import { MyNavBar } from '../../navbar/navbar';
 
 
-function Banner() {
+function BannerComponent() {
     const [dropwDownItems] = useState([
         {
             "label": "Super Deals",
@@ -50,4 +50,4 @@ function Banner() {
     );
 }
 
-export default Banner;
+export default BannerComponent;

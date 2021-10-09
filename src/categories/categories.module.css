@@ -1,0 +1,10 @@
+.categoriesItems{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.categoriesName{
+    font-weight: bold;
+}
+.numbOfItems{
+    justify-self: right;
+}
