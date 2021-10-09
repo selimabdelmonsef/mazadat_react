@@ -2,12 +2,9 @@
     margin-top: 10px;
     height: 180px;
     background-color: #F6F7F8;
-    width: 165px;
-    margin-left: 10px;
 }
 .accesoriesTitle{
     font-weight: bold;
-    float: left;
     padding-left: 10px;
 }
 .accessoriesStyles{
@@ -17,10 +14,6 @@
     
 }
 .myCategoriesStyles{
-    margin-top: 45px;
+    margin-top: 25px;
    
-}
-.bannerImg{
-    width: -webkit-fill-available;
-    margin-top: 10px;
 }

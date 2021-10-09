@@ -1,16 +1,12 @@
 import './App.css';
 import 'rsuite/dist/rsuite.min.css';
-import BannerComponent from './components/banner/banner.js'
-import SearchResultComponent from './components/searchResult/searchResult';
-import AccesoriesComponent from './components/accesoriesComponent/accesoriesComponent';
+import LandingPage from './views/landing_page/landing_page';
 
 function App() {
 
   return (
     <div className="App">
-      <BannerComponent />
-      <SearchResultComponent/>
-      <AccesoriesComponent/>
+     <LandingPage/>
     </div>
   );
 }

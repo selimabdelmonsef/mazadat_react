@@ -1,14 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import styles from './navbar.module.css';
-import { ButtonToolbar, Nav, Dropdown } from 'rsuite';
+import { ButtonToolbar, Dropdown } from 'rsuite';
 import PropTypes from 'prop-types';
 
 export const MyNavBar = ({ titles }) => {
-    useEffect(() => {
-    }, []);
     return (
         <div className={styles.myNavBar} >
-
                 <ButtonToolbar>
                     {titles.map((title, index) => {
                         return <Dropdown className={styles.dropDownTitle} title={title?.label} trigger="hover">
