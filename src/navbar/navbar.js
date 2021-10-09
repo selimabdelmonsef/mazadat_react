@@ -24,7 +24,3 @@ export const MyNavBar = ({ titles }) => {
 MyNavBar.propTypes = {
     titles: PropTypes.array,
 };
-const style ={
-    backgrounColor:"transparent",
-    color:"white"
-}
