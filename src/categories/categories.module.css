@@ -1,11 +1,12 @@
 .categoriesItems{
     display: flex;
-    margin-left: 10px;
+    justify-content: center;
 }
 .categoriesName{
     font-weight: bold;
+    margin-right: 200px;
 }
 .numbOfItems{
     position: absolute;
-    margin-left: 120px;
+    margin-left: 200px;
 }

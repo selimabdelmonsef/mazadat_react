@@ -1,0 +1,21 @@
+.accesories_range_container{
+    display: flex;
+    padding: 10px;
+}
+.bannerImg{
+    width: -webkit-fill-available;
+    margin-top: 10px;
+}
+.rangeSliderComponent{
+    margin-top: 50px;
+    height: inherit;
+    background-color: #F6F7F8;
+    width: 165px;
+    margin-left: 20px;
+}
+.priceTextStyle{
+    text-align: left;
+    margin-left: 17px;
+    padding-top: 10px;
+    font-weight: bold;
+}
