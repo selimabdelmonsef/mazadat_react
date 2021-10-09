@@ -1,20 +1,26 @@
 .myAccessories{
-    float: left;
-    margin: 12px;
-    width: 150px;
-    height: 160px;
+    margin-top: 10px;
+    height: 180px;
     background-color: #F6F7F8;
+    width: 165px;
+    margin-left: 10px;
 }
 .accesoriesTitle{
     font-weight: bold;
+    float: left;
+    padding-left: 10px;
 }
 .accessoriesStyles{
-    padding-left: 16px;
     padding-top: 10px;
-    text-align: left;
     font: normal normal 11px/28px Montserrat;
     color: #22262A;
+    
 }
 .myCategoriesStyles{
+    margin-top: 45px;
+   
+}
+.bannerImg{
+    width: -webkit-fill-available;
     margin-top: 10px;
 }

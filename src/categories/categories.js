@@ -10,7 +10,7 @@ export const MyCategories = ({ items }) => {
                 {items?.map((item) => {
                     return <div className={styles.categoriesItems}>
                         <p className={styles.categoriesName}>{item}</p>
-                        {/* <span className={styles.numbOfItems}>{item?.value}</span> */}
+                        <span className={styles.numbOfItems}>31</span>
                     </div>
                 })}
             </div>
