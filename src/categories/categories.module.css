@@ -1,10 +1,11 @@
 .categoriesItems{
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    margin-left: 10px;
 }
 .categoriesName{
     font-weight: bold;
 }
 .numbOfItems{
-    justify-self: right;
+    position: absolute;
+    margin-left: 120px;
 }
