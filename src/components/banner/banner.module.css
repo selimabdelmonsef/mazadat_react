@@ -1,0 +1,48 @@
+.navbar{
+    height: 200px;
+    background-color: #123F87;
+}
+.logoStyle{
+    width: 110px;
+    margin-top: 15px;
+}
+.searchAddToCartContainer{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.banner{
+    color: white;
+   display: flex;
+   justify-content: center;
+}
+h6{
+    margin-right: 10px;
+    font-size: 11px;
+    cursor: pointer;
+}
+.cartContainer{
+    margin-left: 15px;
+    background-color: #60A5CA;
+    border: 15px solid #60A5CA;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.searchStyle{
+    margin-top: 14px;
+}
+.numberOfOrders{
+    background-color: #0078B1;
+    border: 15px solid #0078B1;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.dropDownItems{
+    display: flex;
+}
+.nav-link{
+    color: white;
+}
+.a{
+    color: white;
+}

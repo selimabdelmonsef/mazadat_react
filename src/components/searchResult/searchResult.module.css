@@ -1,0 +1,9 @@
+.searchResult{
+    margin-top: 20px;
+    background-color: #F6F7F8;
+    height: 51px;
+}
+.searchResultText{
+    padding-top: 15px;
+    font-weight: bold;
+}
