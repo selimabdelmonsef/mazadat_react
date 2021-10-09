@@ -1,9 +1,12 @@
 .myAccessories{
     float: left;
-    height: 260px;
     margin: 12px;
     width: 150px;
+    height: 160px;
     background-color: #F6F7F8;
+}
+.accesoriesTitle{
+    font-weight: bold;
 }
 .accessoriesStyles{
     padding-left: 16px;
@@ -12,17 +15,6 @@
     font: normal normal 11px/28px Montserrat;
     color: #22262A;
 }
-.accesoriesTitle{
-    font-weight: bold;
-}
-.accessoriesItems{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 70px;
-}
-.accesoriesName{
-    font-weight: bold;
-}
-.numbOfItems{
-
+.myCategoriesStyles{
+    margin-top: 10px;
 }
