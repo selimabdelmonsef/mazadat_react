@@ -1,15 +1,7 @@
 .myNavBar{
-    /* display: flex; */
+    mix-blend-mode: hard-light;
 }
-/* .rs-btn {
-    color: white;
-    background-color: transparent;
+.drowpDowns{
+    grid-template-columns: repeat(1,1fr);
+    display: grid;
 }
-#menubutton-3{
-    color: white;
-    background-color: transparent;
-}
-.dropDownTitle{
-    color: white;
-    background-color: transparent;
-} */

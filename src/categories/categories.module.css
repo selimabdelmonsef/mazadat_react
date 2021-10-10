@@ -1,12 +1,33 @@
 .categoriesItems{
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 .categoriesName{
     font-weight: bold;
     margin-right: 200px;
+    cursor: pointer;
 }
 .numbOfItems{
     position: absolute;
     margin-left: 200px;
 }
+.selectedBtn{
+    color: #00B0B8;
+}
+@media only screen and (min-width:768px){
+
+    .categoriesItems{
+        justify-content: left;
+        font-size: 16px;
+    }
+    .categoriesName{
+    margin-right: 170px;
+    cursor: pointer;
+    margin-left: 10px;
+    }
+    .numbOfItems{
+        margin-left: 268px;
+    }
+    
+    }

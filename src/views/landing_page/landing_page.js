@@ -8,6 +8,8 @@ import bannerAd from '../../images/bannerAd.png'
 import { Circle } from '../../filters/color/color';
 import SortByComponent from '../../filters/sortBy/sortyBy';
 import Products from '../../components/products/products';
+import PriceComponent from '../../components/priceComponent/priceComponent';
+import SubmitSearch from '../../components/submitSearch/submitSearch';
 
 function LandingPage() {
 
@@ -18,17 +20,12 @@ function LandingPage() {
             <img className={styles.bannerImg} src={bannerAd} alt="" />
             <AccesoriesComponent />
             <div className={styles.rangerSlider_colors}>
-                <div className={styles.rangeSliderComponent}>
-                    <p className={styles.priceTextStyle}>Prices</p>
-                    <RangeSlider min={20}
-                        max={1000}
-                        // onChange={({ min, max }) => setMinMaxPriceRange(min, max)}
-                        onChange={({ min, max }) => console.log(min, max)} />
-                </div>
+                <PriceComponent/>
                 <div className={styles.colorComponentStyle}>
                     <Circle colors={["blue","red","black","yellow","pink","grey"]}/>
                 </div>
             </div>
+            <SubmitSearch/>
             <SortByComponent/>
             <Products/>
         </div>

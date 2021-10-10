@@ -1,6 +1,6 @@
 .myAccessories{
     margin-top: 10px;
-    height: 180px;
+    height: 210px;
     background-color: #F6F7F8;
 }
 .accesoriesTitle{
@@ -17,3 +17,13 @@
     margin-top: 25px;
    
 }
+
+@media only screen and (min-width:768px){
+
+    .myAccessories{
+        width: 300px;
+    margin-left: 20px;
+    height: 310px;
+    }
+    
+    }

@@ -1,0 +1,17 @@
+.submitBtn{
+    margin-top: 12px;
+    height: 25px;
+    font-size: 15px;
+    background-color: #F6F7F8;
+    border: none;
+    border-radius: 5px;
+    color: #123F87;
+    width: 84px;
+    cursor: pointer;
+}
+@media only screen and (min-width:768px){
+    .submitBtn{
+        float: left;
+    margin-left: 120px;
+    }
+}

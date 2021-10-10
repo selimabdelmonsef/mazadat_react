@@ -20,3 +20,16 @@ padding-left: 34px;
     padding-left: 38px;
 
 }
+@media only screen and (min-width:768px){
+.sortByContainer{
+    margin-top: 415px;
+    background-color: #F6F7F8;
+    height: 51px;
+    position: absolute;
+    top: 75%;
+    width: 811px;
+    right: 65px;
+    display: flex;
+    align-items: center;
+}
+}
