@@ -1,0 +1,13 @@
+.colorFilters{
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+}
+.colorStyles{
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.colorTextStyle{
+    padding-bottom: 15px;
+    padding-right: 70px;
+    font-weight: bold;
+}
