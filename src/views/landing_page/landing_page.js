@@ -6,6 +6,8 @@ import RangeSlider from '../../filters/range_slider/range_slider.js';
 import styles from './landing_page.module.css'
 import bannerAd from '../../images/bannerAd.png'
 import { Circle } from '../../filters/color/color';
+import SortByComponent from '../../filters/sortBy/sortyBy';
+import Products from '../../components/products/products';
 
 function LandingPage() {
 
@@ -27,9 +29,8 @@ function LandingPage() {
                     <Circle colors={["blue","red","black","yellow","pink","grey"]}/>
                 </div>
             </div>
-            <div>
-
-            </div>
+            <SortByComponent/>
+            <Products/>
         </div>
     );
 }
