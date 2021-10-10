@@ -24,6 +24,7 @@ function AccesoriesComponent() {
                             width={60}
                             height={60} />}
                 </div>
+                
                 <div className={styles.myCategoriesStyles} >
                     <MyCategories items={accesories} />
                 </div>
