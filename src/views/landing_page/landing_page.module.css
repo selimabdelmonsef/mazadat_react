@@ -3,7 +3,7 @@
     padding: 10px;
 }
 .bannerImg{
-    width: -webkit-fill-available;
+    width: 100%;
     margin-top: 10px;
 }
 .rangerSlider_colors{
