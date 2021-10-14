@@ -35,6 +35,7 @@
 .productPrice{
     color: darkred;
 }
+
 .noProducts{
     margin-top: 100px;
     color: red;
@@ -44,24 +45,35 @@
 @media only screen and (min-width:768px){
 
 .productsBase{
-    display: grid; 
-    width: min-content;
     position: absolute;
     right: 145px;
-    top: 1030px;
+    top: 740px;
+}
+.productDescription{
+    margin: initial;
+    margin-top: 20px;
+}
+.productPrice{
+    margin-top: 25px;
 }
 .productsElements{
     margin-bottom: 0px;
 }
-/* .productName{
-    min-inline-size: max-content;
-    float: right;
+.productContent{
+    display: flex;
+}
+.img_title{
+    margin-left: 365px;
+}
+.productName{
+    margin: initial;
+}
+.title_price_description_Container{
+    text-align: left;
+    margin-left: 30px;
 }
 .imageStyle{
-    margin-left: 200px;
+    height: 175px;
 }
-.productDescription{
-    margin-left: 311px;
-} */
 
 }

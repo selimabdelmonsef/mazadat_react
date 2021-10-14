@@ -21,9 +21,13 @@
 @media only screen and (min-width:768px){
 
     .myAccessories{
-        width: 300px;
-    margin-left: 20px;
-    height: 310px;
+        margin-left: 10px;
+        width: 270px;
+        height: 371px;
+    }
+    .accesoriesTitle{
+        float: left;
+        margin-left: 10px;
     }
     
     }

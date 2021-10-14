@@ -20,6 +20,7 @@ export const MyCategories = ({ items }) => {
             <div>
                 {items?.map((item) => {
                     return <div className={styles.categoriesItems}>
+                        
                         <p className={`${styles.categoriesName} ${item ===currentItem?styles.selectedBtn:""}`} onClick={()=>categoryHandler(item)}>{item}</p>
                         <span className={`${styles.numbOfItems} ${item ===currentItem?styles.selectedBtn:""}`}>31</span>
 

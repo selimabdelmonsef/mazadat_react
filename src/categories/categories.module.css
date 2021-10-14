@@ -18,16 +18,15 @@
 @media only screen and (min-width:768px){
 
     .categoriesItems{
-        justify-content: left;
         font-size: 16px;
+        margin-top: 40px;
+        justify-content: left;
     }
     .categoriesName{
-    margin-right: 170px;
-    cursor: pointer;
-    margin-left: 10px;
-    }
-    .numbOfItems{
-        margin-left: 268px;
+        cursor: pointer;
+        margin-right: auto;
+        text-align: left;
+        padding-left: 21px;
     }
     
     }

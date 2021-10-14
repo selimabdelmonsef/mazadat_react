@@ -20,9 +20,21 @@
 
 @media only screen and (min-width:768px){
     .rangerSlider_colors{
-        display: grid;
+        display: list-item;
     }
     .colorComponentStyle{
-        width: 260px;
+        width: 270px;
+    margin-left: 10px;
     }
+    /* .content {
+        float: right;
+        width: 870px;
+        height: 340px;
+    } */
+    .bannerImg{
+        float: right;
+        width: 73%;
+        height: 340px;
+    }
+
 }
