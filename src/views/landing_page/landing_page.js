@@ -6,7 +6,7 @@ import RangeSlider from '../../filters/range_slider/range_slider.js';
 import styles from './landing_page.module.css'
 import bannerAd from '../../images/bannerAd.png'
 import { Circle } from '../../filters/color/color';
-import SortByComponent from '../../filters/sortBy/sortyBy';
+import SortByComponent from '../../filters/sortBy/sortyByComponent';
 import Products from '../../components/products/products';
 import PriceComponent from '../../components/priceComponent/priceComponent';
 import SubmitSearch from '../../components/submitSearch/submitSearch';
