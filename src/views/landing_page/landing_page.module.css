@@ -1,36 +1,9 @@
-.accesories_range_container{
-    display: flex;
-    padding: 10px;
-}
 .bannerImg{
     width: 100%;
     margin-top: 10px;
 }
-.rangerSlider_colors{
-    display: flex;
-}
-.colorComponentStyle{
-    margin-left: 30px;
-    margin-top: 50px;
-    height: 125px;
-    background-color: #F6F7F8;
-    padding-left: 15px;
-    padding-top: 10px;
-}
 
 @media only screen and (min-width:768px){
-    .rangerSlider_colors{
-        display: list-item;
-    }
-    .colorComponentStyle{
-        width: 270px;
-    margin-left: 10px;
-    }
-    /* .content {
-        float: right;
-        width: 870px;
-        height: 340px;
-    } */
     .bannerImg{
         float: right;
         width: 73%;

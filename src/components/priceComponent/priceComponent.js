@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import RangeSlider from '../../filters/range_slider/range_slider';
 import { useDispatch } from 'react-redux';
 import { REDUCERS_CONSTANTS } from '../../constants/reducers.constants';

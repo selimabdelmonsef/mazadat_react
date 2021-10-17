@@ -4,7 +4,6 @@ import { MyCategories } from '../../categories/categories';
 import useFetch from '../../fetch/useFetch';
 import { api } from '../../constants/api.constants';
 import PlaceholderLoading from 'react-placeholder-loading';
-import bannerAd from '../../images/bannerAd.png';
 
 
 function AccesoriesComponent() {

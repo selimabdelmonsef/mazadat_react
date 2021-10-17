@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import { useDispatch,useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import styles from './categories.module.css';
 import PropTypes from 'prop-types';
 import { REDUCERS_CONSTANTS } from '../constants/reducers.constants';

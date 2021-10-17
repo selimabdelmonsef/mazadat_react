@@ -1,0 +1,27 @@
+.rangerSlider_colors{
+    display: flex;
+}
+
+.colorComponentStyle{
+    margin-left: 30px;
+    margin-top: 50px;
+    height: 125px;
+    background-color: #F6F7F8;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+@media only screen and (min-width:768px){
+    .rangerSlider_colors{
+        display: inline-block;
+    }
+    .colorComponentStyle{
+        width: 270px;
+    margin-left: 10px;
+    }
+    .filterStyles{
+        display: inline-grid;
+    float: left;
+    }
+   
+}

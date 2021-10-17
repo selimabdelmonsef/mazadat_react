@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import styles from './products.module.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { api } from '../../constants/api.constants';
-// import { REDUCERS_CONSTANTS } from '../../constants/reducers.constants';
 import useFetch from '../../fetch/useFetch';
 import PlaceholderLoading from 'react-placeholder-loading';
 import { REDUCERS_CONSTANTS } from '../../constants/reducers.constants';
